@@ -12,7 +12,7 @@ function exitHandler() {
   if (!exitHandled) {
     exitHandled = true;
     output.end();
-    stdout.write('Good luck!\n');
+    stdout.write('\nGood luck!\n');
     process.exit();
   }
 }
